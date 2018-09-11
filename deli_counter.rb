@@ -13,7 +13,7 @@ def line (katz_deli)
   else
    puts "The line is currently empty."
   end
-  
+
 end
 
 def now_serving (katz_deli)
