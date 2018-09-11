@@ -8,11 +8,12 @@ def line (katz_deli)
     output = "The line is currently:"
     katz_deli.each_with_index do |name, index|
       output << " #{index +1}. #{name}"
-   end
+    end
+    puts output
   else
    puts "The line is currently empty."
   end
-   puts output
+  
 end
 
 def now_serving (katz_deli)
