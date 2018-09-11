@@ -11,11 +11,8 @@ def line (katz_deli)
  else
    index = katz_deli.length
    puts "The line is currently:"
-   katz_deli.each do |i|
-    puts " #{index}"
-    index += 1
+   index += 1
    end
- end
 end
 
 def now_serving (katz_deli)
