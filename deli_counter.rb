@@ -10,6 +10,7 @@ def line (katz_deli)
    puts "The line is currently empty."
  else
    index = katz_deli.length
+   puts index
    puts "The line is currently:"
    index += 1
    end
