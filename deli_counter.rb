@@ -7,8 +7,8 @@ end
 
 def line (katz_deli)
  if katz_deli.length > 1
-   katz_deli.each_with_index do |name,i|
-     puts "The line is currently: #{katz_deli.length}. #{katz_deli [katz_deli.length]}"
+   katz_deli.length.times do |i|
+     puts "The line is currently: #{i}. #{katz_deli [i]}"
    end
  else
    puts "The line is currently empty."
