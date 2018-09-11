@@ -11,7 +11,7 @@ def line (katz_deli)
    katz_deli.each_with_index do |name, index|
      output << " #{index +1}. #{name}"}
    end
-  puts output
+  print output
  end
 end
 
