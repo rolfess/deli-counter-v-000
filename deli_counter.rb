@@ -6,7 +6,7 @@ def take_a_number (katz_deli, name)
 end
 
 def line (katz_deli)
- if katz_deli.length > 1 
+ if katz_deli.length > 1
    #katz_deli.collect do |name|
    #puts "The line is currently: #{katz_deli.}"
   #end
@@ -18,4 +18,3 @@ end
 def now_serving (katz_deli)
 
 end
-
