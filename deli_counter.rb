@@ -1,8 +1,8 @@
 katz_deli = []
 
 def take_a_number (katz_deli, name)
- counter = 1
- puts "Welcome, #{name}. You are number #{counter} in line."
+ katz_deli << name
+ puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
 
 def line (katz_deli)
