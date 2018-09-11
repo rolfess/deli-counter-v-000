@@ -13,7 +13,6 @@ def line (katz_deli)
   #  while index < katz_deli.length
     #  puts "#{index}. #{katz_deli[index]}"
   #    index += 1
-    end
  end
 end
 
