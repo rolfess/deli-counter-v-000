@@ -11,8 +11,8 @@ def line (katz_deli)
    katz_deli.each_with_index do |name, index|
      output << " #{index +1}. #{name}"}
    end
-  print output
  end
+   puts output
 end
 
 def now_serving (katz_deli)
