@@ -9,11 +9,13 @@ def line (katz_deli)
  if katz_deli.length == 0
    puts "The line is currently empty."
  else
-   index = katz_deli.length
-   puts index
+   index = 0
    puts "The line is currently:"
-   index += 1
-   end
+    while index < katz_deli.length
+      puts "#{index}. #{katz_deli[index]}"
+      index += 1
+    end
+ end
 end
 
 def now_serving (katz_deli)
