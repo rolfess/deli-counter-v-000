@@ -11,7 +11,7 @@ def line (katz_deli)
  else
    puts "The line is currently:"
    katz_deli.each_index do |i|
-    puts " #{katz_deli.to_i+1}. #{katz_deli[i]}"
+    puts " #{i+1}. #{katz_deli[i]}"
    end
  end
 end
