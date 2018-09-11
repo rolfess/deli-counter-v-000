@@ -9,7 +9,9 @@ def line (katz_deli)
  else
    index = 0
    puts "The line is currently:"
-   katz_deli.each_with_index{|x,i| puts i. x }
+   katz_deli.each_with_index do |name, index|
+     output << "#{index + 1}. #{name}"
+     puts output
   #  while index < katz_deli.length
     #  puts "#{index}. #{katz_deli[index]}"
   #    index += 1
