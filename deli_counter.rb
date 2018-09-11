@@ -12,6 +12,7 @@ def line (katz_deli)
    katz_deli.each_with_index do |name, index|
      output << "#{index + 1}. #{name}"
      puts output
+   end
   #  while index < katz_deli.length
     #  puts "#{index}. #{katz_deli[index]}"
   #    index += 1
